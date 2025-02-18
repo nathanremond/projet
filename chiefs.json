@@ -2,11 +2,19 @@
     {
         "id": 1,
         "name": "nathan",
-        "infos": "Chef depuis 10 ans, a un restaurant à Paris."
+        "infos": "Chef depuis 10 ans, a un restaurant à Paris.",
+        "dishes": [
+            { "id": 1, "name": "Dish 1", "price": 10 },
+            { "id": 2, "name": "Dish 2", "price": 15 }
+        ]
     },
     {
         "id": 1,
         "name": "jean",
-        "infos": "Chef depuis 2 ans."
+        "infos": "Chef depuis 2 ans.",
+        "dishes": [
+            { "id": 3, "name": "Dish 3", "price": 12 },
+            { "id": 4, "name": "Dish 4", "price": 18 }
+        ]
     }
 ]

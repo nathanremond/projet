@@ -4,13 +4,14 @@ import UserPage from "./pages/UserPage.vue";
 import SessionPage from "./pages/SessionPage.vue";
 import ChiefPage from "./pages/ChiefPage.vue";
 import DetailPage from "./pages/DetailPage.vue";
+import CartPage from "./pages/CartPage.vue";
 
 
 const router = createRouter({
     history: createWebHashHistory(),
     routes: [
         {
-            path: '',
+            path: '/',
             component: HomePage
         },
         {
@@ -28,6 +29,10 @@ const router = createRouter({
         {
             path: '/chiefs/:id',
             component: DetailPage
+        },
+        {
+            path: '/cart',
+            component: CartPage
         }
     ]
 })
