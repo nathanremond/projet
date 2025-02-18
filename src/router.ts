@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import HomePage from "./pages/HomePage.vue";
 import UserPage from "./pages/UserPage.vue";
 import SessionPage from "./pages/SessionPage.vue";
+import ChiefPage from "./pages/ChiefPage.vue";
 
 
 const router = createRouter({
@@ -18,6 +19,10 @@ const router = createRouter({
         {
             path: '/session',
             component: SessionPage
+        },
+        {
+            path: '/chiefs',
+            component: ChiefPage
         }
     ]
 })
