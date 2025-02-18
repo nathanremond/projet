@@ -1,10 +1,12 @@
 [
     {
         "id": 1,
-        "name": "nathan"
+        "name": "nathan",
+        "infos": "Chef depuis 10 ans, a un restaurant à Paris."
     },
     {
         "id": 1,
-        "name": "jean"
+        "name": "jean",
+        "infos": "Chef depuis 2 ans."
     }
 ]

@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage.vue";
 import UserPage from "./pages/UserPage.vue";
 import SessionPage from "./pages/SessionPage.vue";
 import ChiefPage from "./pages/ChiefPage.vue";
+import DetailPage from "./pages/DetailPage.vue";
 
 
 const router = createRouter({
@@ -23,6 +24,10 @@ const router = createRouter({
         {
             path: '/chiefs',
             component: ChiefPage
+        },
+        {
+            path: '/chiefs/:id',
+            component: DetailPage
         }
     ]
 })
